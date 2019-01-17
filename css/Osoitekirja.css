@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2.2.2018, 21:45:12
+    Author     : OMISTAJA
+*/
+/* css reset in another file */
+@import 'css-reset.css';
+
+
+/* my styles */
+
+/* nämä liittyvät piilotuksiin */
+#tul_miinus:hover, 
+#tul_plus:hover,
+#lask_miinus:hover, 
+#lask_plus:hover {
+    cursor: pointer;
+}
+
+#tul_plus,
+#lask_plus {
+    display: none;
+}
+
+#tul_miinus, 
+#tul_plus,
+#lask_miinus, 
+#lask_plus {
+    background-color: aqua;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 30px;
+}
+
+/* Jos haluat tulostusharjoitukset piiloon, kun sivu ladataan, 
+ niin ota kommenttimerkit pois */
+div#tulostus {
+/*    display: none; */
+}
+
+/* *********************************** */
+/* Tästä alkaa muut muotoilut */
+div#sivu {
+    margin-left: 2em;
+    font-family: tahoma;
+}
+
+h1 { 
+    font-size: 1.5em;
+    color: red;
+    padding: 1em 1em 1em 0em;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+}
+
+section {
+    margin-top: 1em;
+    margin-right: 2em;
+    padding-top: 0.5em;
+    display: inline-block; /* näytetään inline-elementtinä */
+    width: 15em;
+    vertical-align: top;  /* yläreunat samalla tasolla */
+    border-top: 1px dashed blue;
+}
+
+section.levea {
+    width: 30em;
+}
+
+button {
+    display: block; /* näytetään block-elementtinä */
+    margin-bottom: 0.5em;
+}
+
+label {
+    margin-bottom: 0.5em;
+    width: 8em;
+    display: inline-block; /* n
+                    
+                    äytetään block-elementtinä */
+}
+
+label.tulostus {
+    display: block;
+    width: 100%;
+}
+
+label.pitka {
+    width: auto;
+}
+
+p {
+    line-height: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+input {
+    width: 8em;
+}
+
+
+
